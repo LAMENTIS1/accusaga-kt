@@ -1,0 +1,51 @@
+Code,Description
+Finished,"Tracks the completion status of a task or activity. Values include TRUE, Finished, and {""ImportId"":""finished""}."
+RecordedDate,"Timestamps of when data was recorded, including dates and times such as 1/16/23 16:05, 1/16/23 13:46, 1/16/23 18:27, etc."
+EndDate,"Records the date and time when certain events or actions occurred, such as survey submissions or data entries. Sample values include timestamps like 1/16/23 16:05, 1/16/23 13:46, and 1/16/23 19:58, indicating specific moments in time."
+StartDate,"Capturing various start dates and times, including specific timestamps like 1/16/23 15:15 and 1/16/23 19:20, as well as structured data like {""ImportId"":""startDate"",""timeZone"":""America/New_York""}. The column records when events or activities begin, providing a timeline of when different tasks or processes kick off."
+Duration (in seconds),"Tracks the length of time in seconds for various activities or events, such as 2638, 1785, 881, 453, 1208, 960, 1377, 768, 527, 2642, 609, 805, 1483, 1373, 414, 733, 7375, 753, 1998, 687, 1955, 654, 915, 1385, 903, 656, 1623, 1718."
+RecipientLastName,"Tracks the last names of recipients, including values like ""Smith"", ""Johnson"", ""Garcia"", and ""Nguyen""."
+RecipientFirstName,"This column tracks the first names of recipients. Sample values include names like ""John,"" ""Sarah,"" and ""Michael."""
+ExternalReference,"This column tracks external data references, including values like ""External Data Reference"" and {""ImportId"":""externalDataReference""}."
+DistributionChannel,"Capturing various distribution channels used, including anonymous submissions and a specific distribution channel identified by an import ID."
+Q_RecaptchaScore,"This column tracks the scores assigned to responses for a certain verification process. The values range from 0.6 to 1, indicating the level of accuracy or trustworthiness."
+ResponseId,"Unique identifiers assigned to each survey response, such as R_1qVqIfCDSYAUHl2, R_prXgtTENwZo0V9f, R_PUqDVyrZRfq8kgh, R_33qlmZzAeDEB672, R_3qQDuRJfdfRlmzE, R_1j6PpigZN3D6jbK, R_A0a1jzEi32wGPex, R_1Cg3cGlY9c9y25s, R_1LuJL3Q949g4PYn, R_2P5MURmLUHHh05k, R_0TW7pW6g17zIxwd, R_2txMwvg7OLlNo54, R_3Mmats1TJVSXeag, R_29vtd6peadG"
+UserLanguage,"The UserLanguage column tracks the preferred language of the users, with values like ""EN"" indicating English and ""User Language"" suggesting a user-defined language choice."
+Q_RelevantIDFraudScore,"This column tracks the relevance of fraud scores to a specific ID. The values include an import ID related to fraud scores, a numerical score of 0, and the actual fraud score itself."
+Q_RelevantIDDuplicate,"This column tracks the presence of duplicate relevant IDs in the dataset. The values in this column include the actual relevant ID and a JSON object with an ""ImportId"" key corresponding to the relevant ID."
+Q_RelevantIDDuplicateScore,"This column tracks the relevance and duplication score of IDs, including values like 0 and {""ImportId"":""Q_RelevantIDDuplicateScore""}."
+Q_BallotBoxStuffing,"This column tracks instances of potential ballot box stuffing, including values like ""Q_BallotBoxStuffing"" and {""ImportId"":""Q_BallotBoxStuffing""}."
+Q_RelevantIDLastStartDate,"This column tracks the last start date related to a relevant ID, including information about the time zone in UTC."
+G_1,Column capturing survey information and details about the purpose and confidentiality of the survey.
+G_3,"This column tracks the responses to the question ""Which statement best describes where you live?"" with sample values like ""I live in the US""."
+G_4_1,"Health conditions diagnosed by a healthcare provider, including allergies (food, latex, insects, environmental, etc.)."
+G_4_2,Health conditions diagnosed by a healthcare provider. Values include Alzheimer's disease.
+G_2,"This column tracks a variety of values related to age, including specific numbers like 28, 45, and 70, as well as text entries such as ""What is your age?"". The values range from 25 to 73, with a mix of numerical and textual data."
+G_4_3,"This column tracks the health conditions diagnosed by a healthcare provider, specifically focusing on conditions like Asthma."
+G_4_4,"Health conditions diagnosed by a healthcare provider, including anxiety."
+G_4_5,"This column tracks the health conditions diagnosed by a healthcare provider, specifically focusing on Bipolar disorder."
+G_4_6,"Health conditions diagnosed by a healthcare provider, including C. diff (C. difficile)."
+G_4_7,"This column tracks the health conditions diagnosed by a healthcare provider, specifically related to chronic pain. The values include information about the specific conditions selected by the respondent."
+G_4_11,Health conditions diagnosed by a healthcare provider: Dementia.
+G_4_8,"Column values capture the health conditions diagnosed by a healthcare provider, specifically focusing on chronic hives lasting over 6 weeks."
+G_4_9,"Column values capture the health conditions diagnosed by a healthcare provider, including Chronic kidney disease (CKD)."
+G_4_10,"This column tracks the health conditions diagnosed by a healthcare provider, specifically focusing on COPD (Chronic Obstructive Pulmonary Disease). The values indicate whether individuals have been diagnosed with COPD as one of the listed health conditions."
+G_4_12,"This column tracks the health conditions diagnosed by a healthcare provider, specifically focusing on depression. The values indicate whether the respondent has been diagnosed with depression."
+G_4_16,"Health conditions diagnosed by a healthcare provider, including gout."
+G_4_13,Health condition diagnosed by a healthcare provider - Endometriosis.
+G_4_15,Column values include a diagnosis of Fibromyalgia. This column tracks the presence of specific health conditions diagnosed by a healthcare provider. The data captures whether individuals have been diagnosed with Fibromyalgia.
+G_4_14,"Column capturing health conditions diagnosed by a healthcare provider. Sample values include ""Epilepsy""."
+G_4_17,"This column tracks the presence of heart disease, specifically coronary artery disease, as diagnosed by a healthcare provider. It is part of a series of questions related to various health conditions. The values indicate whether individuals have been diagnosed with heart disease."
+G_4_18,"This column tracks the health conditions diagnosed by a healthcare provider, specifically focusing on heart failure. The values indicate whether individuals have been diagnosed with heart failure."
+G_4_19,"Health conditions diagnosed by a healthcare provider, including Hepatitis B."
+G_4_20,"Health conditions diagnosed by a healthcare provider, including Hepatitis C (hep C)."
+G_4_22,"Health conditions diagnosed by a healthcare provider, including high blood pressure."
+G_4_21,"Health conditions diagnosed by a healthcare provider, including Hepatitis D (hep delta)."
+G_4_23,"Health conditions diagnosed by a healthcare provider, including high cholesterol/triglycerides."
+G_4_24,"Health conditions diagnosed by a healthcare provider, including HIV."
+G_4_25,Health conditions diagnosed by a healthcare provider: Hypothyroidism.
+G_4_26,Captures the health conditions diagnosed by a healthcare provider. Sample value: Hyperthyroidism.
+G_4_29,"This column tracks the health conditions diagnosed by a healthcare provider, including Irritable bowel syndrome (IBS)."
+G_4_27,"Column values include a list of health conditions that respondents have been diagnosed with by a healthcare provider, such as Acquired immune deficiency syndrome (AIDS). The column tracks the presence of specific medical conditions among the survey participants."
+G_4_28,"This column tracks the health conditions diagnosed by a healthcare provider, with examples like Insomnia. The values represent a selection of health conditions, including Insomnia, that respondents have been diagnosed with."
+G_4_30,This column tracks the health condition of Menorrhagia (heavy menstrual bleeding) as diagnosed by a healthcare provider. The values indicate whether the respondent has been diagnosed with this condition.
